@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/testLayout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#EFEEEB"
+  android:clickable="true"
+  android:focusable="true"
+  android:focusableInTouchMode="true">
+
+  <TableLayout
+    android:id="@+id/testList"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginTop="30dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:longClickable="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/remainingQuestionLabel" />
+  <TextView
+    android:id="@+id/remainingQuestionCount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    android:inputType="number"
+    android:text="0"
+    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+    app:layout_constraintStart_toEndOf="@+id/remainingQuestionLabel"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="TouchTargetSizeCheck" />
+
+  <TextView
+    android:id="@+id/remainingQuestionLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_marginStart="25dp"
+    android:text="Remaining Questions:"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

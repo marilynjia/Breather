@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qbean.flappybird"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:6:5-78
+12        android:glEsVersion="0x00020000"
+12-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:6:19-51
+13        android:required="true" />
+13-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:6:52-75
+14    <uses-feature
+14-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-9:35
+15        android:name="android.hardware.sensor.stepcounter"
+15-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-59
+16        android:required="true" />
+16-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-32
+17
+18    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+18-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+18-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-67
+19-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-64
+20
+21    <application
+21-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:8:5-28:19
+22        android:allowBackup="true"
+22-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:9:9-35
+23        android:appCategory="game"
+23-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:13:9-35
+24        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+24-->[com.android.support:support-compat:28.0.0] /Users/jack/.gradle/caches/transforms-3/26241e1a7189519b97829e88e7035736/transformed/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="true"
+27-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:10:9-41
+28        android:icon="@drawable/ic_launcher"
+28-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:11:9-45
+29        android:isGame="true"
+29-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:12:9-30
+30        android:label="@string/app_name"
+30-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:14:9-41
+31        android:testOnly="true" >
+32        <activity
+32-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:16:9-26:20
+33            android:name="com.qbean.flappybird.AndroidLauncher"
+33-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:17:13-64
+34            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout"
+34-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:20:13-107
+35            android:exported="true"
+35-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:21:13-36
+36            android:label="@string/app_name"
+36-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:18:13-45
+37            android:screenOrientation="portrait" >
+37-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:19:13-49
+38            <intent-filter>
+38-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:22:13-25:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:23:17-69
+39-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:23:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:24:17-77
+41-->/Users/jack/Projects/FlappyBird-main copy/android/AndroidManifest.xml:24:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:40
+45            android:name="com.qbean.breatherlib.BreatherActivity"
+45-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-66
+46            android:label="Breather" />
+46-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+47        <activity
+47-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:44
+48            android:name="com.qbean.breatherlib.StepCounterActivity"
+48-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-69
+49            android:label="Step Counter" />
+49-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-41
+50        <activity
+50-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:37
+51            android:name="com.qbean.breatherlib.TimerActivity"
+51-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-63
+52            android:label="Timer" />
+52-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-34
+53        <activity
+53-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:36
+54            android:name="com.qbean.breatherlib.TestActivity"
+54-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-62
+55            android:label="Test" />
+55-->[:breatherlib] /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-33
+56    </application>
+57
+58</manifest>

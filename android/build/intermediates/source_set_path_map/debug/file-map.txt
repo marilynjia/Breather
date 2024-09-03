@@ -1,0 +1,13 @@
+com.qbean.flappybird.android-coordinatorlayout-28.0.0-0 /Users/jack/.gradle/caches/transforms-3/1a5fda840f42290432b9744e9f88de4d/transformed/coordinatorlayout-28.0.0/res
+com.qbean.flappybird.android-support-compat-28.0.0-1 /Users/jack/.gradle/caches/transforms-3/26241e1a7189519b97829e88e7035736/transformed/support-compat-28.0.0/res
+com.qbean.flappybird.android-constraint-layout-2.0.4-2 /Users/jack/.gradle/caches/transforms-3/48d7561b15f3c37b29f58bc65119b485/transformed/constraint-layout-2.0.4/res
+com.qbean.flappybird.android-appcompat-v7-28.0.0-3 /Users/jack/.gradle/caches/transforms-3/a3def8ccbc4dfff632b708329cbfeb95/transformed/appcompat-v7-28.0.0/res
+com.qbean.flappybird.android-pngs-4 /Users/jack/Projects/FlappyBird-main copy/android/build/generated/res/pngs/debug
+com.qbean.flappybird.android-resValues-5 /Users/jack/Projects/FlappyBird-main copy/android/build/generated/res/resValues/debug
+com.qbean.flappybird.android-rs-6 /Users/jack/Projects/FlappyBird-main copy/android/build/generated/res/rs/debug
+com.qbean.flappybird.android-mergeDebugResources-7 /Users/jack/Projects/FlappyBird-main copy/android/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.qbean.flappybird.android-mergeDebugResources-8 /Users/jack/Projects/FlappyBird-main copy/android/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.qbean.flappybird.android-merged_res-9 /Users/jack/Projects/FlappyBird-main copy/android/build/intermediates/merged_res/debug
+com.qbean.flappybird.android-android-10 /Users/jack/Projects/FlappyBird-main copy/android/res
+com.qbean.flappybird.android-debug-11 /Users/jack/Projects/FlappyBird-main copy/android/src/debug/res
+com.qbean.flappybird.android-packaged_res-12 /Users/jack/Projects/FlappyBird-main copy/breatherlib/build/intermediates/packaged_res/debug
