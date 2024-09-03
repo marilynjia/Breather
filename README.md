@@ -6,6 +6,6 @@ Usually, I spend time on my phone because I'm stressed or tired... looking at th
 
 This repo is a brief proof-of-concept that allows the user to set a screen time limit on their game, and then choose an activity to complete before they keep playing. 
 
-Currently being rebuilt for iOS with ScreenTime API under @mynjia!
+Currently being rebuilt for iOS with ScreenTime API under @mynjia
 
-!["Flappy Bird clone in Android Studio."](https://github.com/rusahang/FlappyBird/blob/main/screenshot/screenshot.jpg "Flappy Bird clone in Android Studio.")
+Uses https://github.com/rusahang/FlappyBird.git (thanks!)
